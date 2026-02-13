@@ -1,8 +1,11 @@
-<?php 
-// Setting response type to JSON 
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Setting response type to JSON
 header('Content-Type:application/json');
 
-//including database connection 
+//including database connection
 include("../config.php");
 
 // Checking that the request is a post 
